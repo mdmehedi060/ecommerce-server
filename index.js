@@ -8,7 +8,7 @@ const router = require('./routes');
 const app = express();
 app.use(
   cors({
-    origin: ' https://ecommerce-client-rho-nine.vercel.app/',
+    origin: '*',
     credentials: true,
   })
 );
